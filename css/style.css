@@ -129,3 +129,12 @@ input {
   background-color: inherit;
   z-index: 1;
 }
+
+@media screen and (max-width: 1000px) {
+  .settings-btn {
+    grid-column: 2;
+  }
+  body {
+    grid-template-columns: 1fr 90% 1fr;
+  }
+}
