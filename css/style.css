@@ -6,6 +6,8 @@
   --main-font-color: #3d3d3d;
   --game-container-background-color: whitesmoke;
   --game-container-box-shadow-color: 0, 0, 0;
+  --button-box-shadow: 121, 121, 121;
+  --button-active-box-shadow: 121, 121, 121;
 }
 /* Global Formatting */
 * {
@@ -54,6 +56,17 @@ button {
   border-radius: var(--br);
   padding: 0.5rem 1rem;
   margin: 1rem;
+  box-shadow: 0 0.3rem rgba(var(--button-box-shadow), 0.65);
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: var(--game-container-background-color);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(var(--btn-active-box-shadow), 0.65);
 }
 
 input {
@@ -70,11 +83,6 @@ input {
   -moz-appeareance: none;
   border-radius: 0;
   background-color: var(--settings-background-color);
-}
-
-.select:focus,
-button:focus {
-  outline: 0;
 }
 
 .settings {
