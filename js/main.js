@@ -31,6 +31,15 @@ const words = [
   "admit",
   "drag",
   "loving",
+  "abdomen",
+  "water",
+  "clock",
+  "javascript",
+  "speakers",
+  "run",
+  "appearance",
+  "mixed",
+  "firefly",
 ];
 
 // Init variables
