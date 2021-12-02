@@ -19,7 +19,7 @@
 /* Grid Layout */
 body {
   display: grid;
-  grid-template-columns: 1fr 70% 1fr;
+  grid-template-columns: 1fr 50% 1fr;
   grid-template-rows: 1fr 80% 1fr;
   height: 100vh;
 }
@@ -130,11 +130,11 @@ input {
   z-index: 1;
 }
 
-@media screen and (max-width: 1000px) {
-  .settings-btn {
-    grid-column: 2;
-  }
+@media (max-width: 600px) {
   body {
     grid-template-columns: 1fr 90% 1fr;
+  }
+  .settings-btn {
+    grid-column: 2;
   }
 }
