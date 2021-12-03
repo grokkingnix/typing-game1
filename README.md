@@ -11,3 +11,5 @@ This game is based on javascript
 - local word list, no API used
 - Different difficulty levels
 - Difficulty saved in local storage
+
+![game sample image](img/typing-game.png)
